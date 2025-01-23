@@ -11,7 +11,7 @@ export default function Home() {
             }}
         >
             <header className="flex justify-between items-center px-10 py-6">
-                <img src="/assets-5/logo.png" alt="Logo" className="h-10 mr-36" />
+                <img src="/assets-5/logo.png" alt="Logo" className="h-7 mr-36" />
                 <nav className="flex-1 space-x-36 text-sm font-medium">
                     <a href="#" className="underline">
                         HOME
