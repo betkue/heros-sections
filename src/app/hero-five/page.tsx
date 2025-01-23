@@ -18,7 +18,7 @@ export default function Home() {
         <p className=" md:text-lg lg:text-2xl">
           One subscription and access to a full design <br /> team dedicated to your brand&apos;s success.
         </p>
-        <button className="mt-4 px-4 py-2 md:mt-8 md:px-6 md:py-3 border border-black  md:text-base">
+        <button className="mt-4 px-4 py-2 md:mt-8 md:px-6 md:py-3 border border-black  md:text-base font-bold">
           Book Your Free Discovery
         </button>
       </main>

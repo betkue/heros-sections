@@ -20,7 +20,7 @@ const Header = () => {
         <img src="/assets-5/logo.png" alt="Logo" className="h-8 w-32 md:h-7" />
 
         <nav className="hidden md:flex flex-1 justify-center space-x-6 md:space-x-28 text-xs md:text-sm font-medium">
-          <a href="#" className="underline">
+          <a href="#" className="hover:underline">
             HOME
           </a>
           <a href="#" className="hover:underline">
