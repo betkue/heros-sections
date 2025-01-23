@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
+import Header from "./header";
 
 export default function Home() {
   return (
@@ -10,26 +11,8 @@ export default function Home() {
         backgroundImage: "url('/assets-5/bg.jpeg')",
       }}
     >
-      {/* Header */}
-      <header className="flex flex-wrap justify-between items-center px-6 py-4 md:px-10 md:py-6">
-        <img src="/assets-5/logo.png" alt="Logo" className="h-6 md:h-7 mr-8" />
-        <nav className="flex-1 flex flex-wrap justify-end space-x-6 md:space-x-12 text-xs md:text-sm font-medium">
-          <a href="#" className="underline">
-            HOME
-          </a>
-          <a href="#" className="hover:underline">
-            ABOUT
-          </a>
-          <a href="#" className="hover:underline">
-            CASE STUDIES
-          </a>
-          <a href="#" className="hover:underline">
-            CAREERS
-          </a>
-        </nav>
-      </header>
+    <Header/>
 
-      {/* Main Content */}
       <main className="flex flex-col items-start text-left px-4 mt-8 md:mt-16 space-y-6">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Crafting Powerful Brand <br /> Identities & Logo Designs
@@ -42,7 +25,6 @@ export default function Home() {
         </button>
       </main>
 
-      {/* Circular Text and Icon */}
       <div className="absolute bottom-10 right-10 flex items-center justify-center">
         <svg
           className="absolute w-40 h-36 md:w-40 md:h-48"
