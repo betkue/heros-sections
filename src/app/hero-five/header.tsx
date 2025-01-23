@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="">
+    <header className="clash-display">
       <div className="flex justify-between items-center px-6 py-4 md:px-10 md:py-6">
         <img src="/assets-5/logo.png" alt="Logo" className="h-8 w-32 md:h-7" />
 

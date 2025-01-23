@@ -5,17 +5,17 @@ import Header from "./header";
 export default function Home() {
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col"
+      className="h-screen bg-cover bg-center flex flex-col hero-5"
       style={{
         backgroundImage: "url('/assets-5/bg.jpeg')",
       }}
     >
     <Header/>
-      <main className="flex flex-col items-start text-left px-4 mt-8 md:mt-16 space-y-6">
+      <main className="flex flex-col items-start text-left px-4 mt-8 md:mt-16 space-y-3">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Crafting Powerful Brand <br /> Identities & Logo Designs
         </h1>
-        <p className=" md:text-lg lg:text-2xl">
+        <p className=" md:text-lg lg:text-xl clash-display">
           One subscription and access to a full design <br /> team dedicated to your brand&apos;s success.
         </p>
         <button className="mt-4 px-4 py-2 md:mt-8 md:px-6 md:py-3 border border-black  md:text-base font-bold">
