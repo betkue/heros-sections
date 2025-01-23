@@ -41,7 +41,7 @@ export default function Home() {
             </textPath>
           </text>
         </svg>
-        <div className="relative flex items-center justify-center w-20 h-20 md:w-24 md:h-24 border-2 border-black rounded-full">
+        <div className="relative flex items-center justify-center w-20 h-20 md:w-24 md:h-24 border border-black rounded-full">
           <img src="/assets-5/arrow.png" alt="Logo" className="h-8  md:h-10" />
         </div>
       </div>
