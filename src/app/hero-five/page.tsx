@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import Header from "./header";
 
 export default function Home() {
@@ -36,14 +35,14 @@ export default function Home() {
               d="M 60, 60 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"
             />
           </defs>
-          <text fill="black" fontSize="12.5" fontWeight="bold">
+          <text fill="black" fontSize="12.5" fontWeight="">
             <textPath href="#circlePath" textAnchor="middle" startOffset="49%">
               Projects starting at $15,000 - Projects starting at $15,000 -
             </textPath>
           </text>
         </svg>
         <div className="relative flex items-center justify-center w-20 h-20 md:w-24 md:h-24 border-2 border-black rounded-full">
-          <ArrowUpRightIcon className="absolute w-6 h-6 md:w-8 md:h-8 text-black" />
+          <img src="/assets-5/arrow.png" alt="Logo" className="h-8  md:h-10" />
         </div>
       </div>
     </div>
