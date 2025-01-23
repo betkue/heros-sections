@@ -7,15 +7,44 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Instrument Serif','Bricolage Grotesque','Neue Haas Grotesk Display Pro','Figtree',Arial, Helvetica, sans-serif;
+}
+
+.text-circle {
+  position: relative;
+}
+
+.text-circle::before {
+  content: "Projects starting at $15,000 - Projects starting at $15,000 - ";
+  position: absolute;
+  top: -20px; /* Ajuste la position verticale */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 200%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  white-space: nowrap;
+  transform-origin: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  border-radius: 50%;
+  animation: rotate-text 10s linear infinite;
+}
+
+@keyframes rotate-text {
+  from {
+    transform: rotate(0deg) translateX(-50%);
+  }
+  to {
+    transform: rotate(360deg) translateX(-50%);
+  }
 }
