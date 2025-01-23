@@ -16,26 +16,27 @@ const Header = () => {
 
   return (
     <header className="clash-display">
-      <div className="flex justify-between items-center px-6 py-4 md:px-10 md:py-6">
+      <div className="flex   justify-between custom:justify-normal items-center space-x-20 px-6 py-4  md:py-6">
         <img src="/assets-5/logo.png" alt="Logo" className="h-12 w-40 " />
 
-        <nav className="hidden md:flex flex-1 justify-center space-x-6 md:space-x-28 text-xs md:text-sm font-medium">
-          <a href="#" className="hover:underline">
-            HOME
-          </a>
-          <a href="#" className="hover:underline">
-            ABOUT
-          </a>
-          <a href="#" className="hover:underline">
-            CASE STUDIES
-          </a>
-          <a href="#" className="hover:underline">
-            CAREERS
-          </a>
-        </nav>
+        <nav className="hidden custom:flex flex-1 space-x-6 custom:space-x-20 font-medium">
+            <a href="#" className="hover:underline">
+                HOME
+            </a>
+            <a href="#" className="hover:underline">
+                ABOUT
+            </a>
+            <a href="#" className="hover:underline">
+                CASE STUDIES
+            </a>
+            <a href="#" className="hover:underline">
+                CAREERS
+            </a>
+            </nav>
+
 
         <button
-          className="md:hidden text-gray-600 hover:text-gray-800 focus:outline-none"
+          className="custom:hidden text-gray-600 hover:text-gray-800 focus:outline-none"
           onClick={toggleMenu}
         >
           <svg

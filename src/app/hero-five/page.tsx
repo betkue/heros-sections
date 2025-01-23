@@ -5,13 +5,13 @@ import Header from "./header";
 export default function Home() {
   return (
     <div
-      className="h-screen bg-cover bg-center flex flex-col hero-5"
+      className="h-screen bg-cover bg-center flex flex-col hero-5 px-6"
       style={{
         backgroundImage: "url('/assets-5/bg.jpeg')",
       }}
     >
     <Header/>
-      <main className="flex flex-col items-start text-left px-4 mt-8 md:mt-16 space-y-3">
+      <main className="flex flex-col items-start text-left mt-8 md:mt-16 space-y-3">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Crafting Powerful Brand <br /> Identities & Logo Designs
         </h1>
